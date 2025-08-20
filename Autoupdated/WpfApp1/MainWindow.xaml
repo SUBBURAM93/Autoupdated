@@ -22,5 +22,8 @@
         <Label Content="Label"/>
         <Label Content="Label"/>
         <RadioButton Content="RadioButton"/>
+        <RadioButton Content="RadioButton"/>
+        <RadioButton Content="RadioButton"/>
+        <RadioButton Content="RadioButton"/>
     </StackPanel>
 </Window>
