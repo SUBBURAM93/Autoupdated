@@ -9,5 +9,8 @@
     <StackPanel>
         <DataGrid Height="100" d:ItemsSource="{d:SampleData ItemCount=5}"/>
         <ComboBox Width="120"/>
+        <Label Content="Label"/>
+        <Label Content="Label"/>
+        <Label Content="Label"/>
     </StackPanel>
 </Window>
