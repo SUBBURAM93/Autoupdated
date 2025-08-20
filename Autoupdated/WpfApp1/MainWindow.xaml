@@ -12,5 +12,6 @@
         <Label Content="Label"/>
         <Label Content="Label"/>
         <Label Content="Label"/>
+        <DataGrid Height="100" d:ItemsSource="{d:SampleData ItemCount=5}"/>
     </StackPanel>
 </Window>
