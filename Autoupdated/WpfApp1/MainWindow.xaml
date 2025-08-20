@@ -13,5 +13,13 @@
         <Label Content="Label"/>
         <Label Content="Label"/>
         <DataGrid Height="100" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <TabControl Height="100">
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
     </StackPanel>
 </Window>
