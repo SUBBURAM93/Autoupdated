@@ -17,5 +17,6 @@
         <Label>
             <ComboBox Width="120"/>
         </Label>
+        <CheckBox Content="CheckBox"/>
     </StackPanel>
 </Window>
