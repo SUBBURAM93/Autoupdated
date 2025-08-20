@@ -9,17 +9,18 @@
     <StackPanel>
         <DataGrid Height="100" d:ItemsSource="{d:SampleData ItemCount=5}"/>
         <ComboBox Width="120"/>
-        <Label Content="Label"/>
-        <Label Content="Label"/>
-        <Label Content="Label"/>
+        <Label>
+            <ComboBox Width="120"/>
+        </Label>
+        <Label>
+            <ComboBox Width="120"/>
+        </Label>
+        <Label>
+            <ComboBox Width="120"/>
+        </Label>
         <DataGrid Height="100" d:ItemsSource="{d:SampleData ItemCount=5}"/>
-        <TabControl Height="100">
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-        </TabControl>
+        <Label Content="Label"/>
+        <Label Content="Label"/>
+        <RadioButton Content="RadioButton"/>
     </StackPanel>
 </Window>
