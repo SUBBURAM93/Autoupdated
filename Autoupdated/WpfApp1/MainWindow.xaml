@@ -17,9 +17,5 @@
         <Label>
             <ComboBox Width="120"/>
         </Label>
-        <RadioButton Content="RadioButton"/>
-        <RadioButton Content="RadioButton"/>
-        <RadioButton Content="RadioButton"/>
-        <RadioButton Content="RadioButton"/>
     </StackPanel>
 </Window>
